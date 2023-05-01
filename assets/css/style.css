@@ -1,0 +1,28 @@
+/* --------------------Backgrounds-------------------- */
+
+.site-bg {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/pexels-scott-webb-63952.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom-right;
+}
+
+.brand-bg {
+    background-color: rgba(55, 55, 55, .7);
+    border-radius: 12px;
+    border: 5px solid lightgrey;
+    min-width: fit-content;
+    max-width: fit-content;
+}
+
+/* --------------------Header-------------------- */
+
+.brand {
+    font-family: "Cuprum", sans-serif;
+    font-weight: 700;
+    color: lightgrey;
+    text-align: center;
+    padding: 25px;
+    margin: 30px;
+}
