@@ -4,8 +4,11 @@
     background-color: #fafafa;
 }
 
+/* --------------------Fonts-------------------- */
 
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Cuprum", sans-serif;
+}
 
 /* --------------------Sale Banner-------------------- */
 
@@ -13,6 +16,7 @@
     background-color: rgb(174, 255, 0);
     border-radius: 0;
     height: 50px;
+    width: 100%;
     padding: 10px;
     font-family: "Cuprum", sans-serif;
     font-size: 20px;
@@ -62,8 +66,48 @@
 .fa-solid {
     font-size: 30px;
     color: rgb(55, 55, 55);
-    padding: 30px;
+    padding: 10px;
 }
 
+/* --------------------carousel-------------------- */
+
+.col-md-3 {
+    height: 400px;
+    text-align: center;
+}
 
 /* --------------------Footer-------------------- */
+
+.nav-social-copyright{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.author{
+    font-family: "Cuprum", sans-serif;
+    text-align: right;
+    padding: 0 30px;
+}
+
+.fa-regular {
+font-size: small;
+color: hsl(0, 0%, 22%);
+}
+
+.fa-brands {
+    font-size: 25px;
+    color: hsl(0, 0%, 22%);
+    padding: 10px;
+}
+
+/* --------------------Hover-------------------- */
+
+.fa-solid:hover {
+    background-color: hsl(79, 100%, 50%);
+    border-radius: 50%; 
+}
+
+.fa-brands:hover {
+    background-color: rgb(174, 255, 0);
+    border-radius: 50%;
+}
