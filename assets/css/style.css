@@ -1,28 +1,69 @@
-/* --------------------Backgrounds-------------------- */
+/* --------------------Background-------------------- */
 
 .site-bg {
-    margin: 0;
-    padding: 0;
-    background-image: url("../images/pexels-scott-webb-63952.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom-right;
+    background-color: #fafafa;
 }
 
-.brand-bg {
-    background-color: rgba(55, 55, 55, .7);
-    border-radius: 12px;
-    border: 5px solid lightgrey;
-    min-width: fit-content;
-    max-width: fit-content;
-}
 
-/* --------------------Header-------------------- */
 
-.brand {
+
+/* --------------------Sale Banner-------------------- */
+
+.sale-banner {
+    background-color: rgb(174, 255, 0);
+    border-radius: 0;
+    height: 50px;
+    padding: 10px;
     font-family: "Cuprum", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(55, 55, 55);
+}
+
+/* --------------------Nav Bar-------------------- */
+
+.navbar-brand {
+    color: rgb(55, 55, 55);
+    font-family: "Cuprum", sans-serif;
+    font-size: 35px;
     font-weight: 700;
-    color: lightgrey;
-    text-align: center;
-    padding: 25px;
     margin: 30px;
 }
+
+.navbar {
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    font-family: "Cuprum", sans-serif;
+    font-size: 22.5px;
+    font-weight: 500;
+    color: rgb(55, 55, 55);
+}
+
+.dropdown-menu {
+    background-color: #fafafa;
+    border: none;
+    border-radius: 0;
+    font-family: "Cuprum", sans-serif;
+    font-size: 22.5px;
+    font-weight: 500;
+    color: rgb(55, 55, 55);
+    --bs-dropdown-link-active-color: #fafafa;
+    --bs-dropdown-link-active-bg: darkgrey;
+}
+
+.navbar-toggler {
+    margin: 30px;
+}
+
+.fa-solid {
+    font-size: 30px;
+    color: rgb(55, 55, 55);
+    padding: 30px;
+}
+
+
+/* --------------------Footer-------------------- */
