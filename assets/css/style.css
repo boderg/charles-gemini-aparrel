@@ -55,8 +55,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 22.5px;
     font-weight: 500;
     color: rgb(55, 55, 55);
-    --bs-dropdown-link-active-color: #fafafa;
-    --bs-dropdown-link-active-bg: darkgrey;
+    --bs-dropdown-link-active-color: rgb(174, 255, 0);
+    --bs-dropdown-link-active-bg: rgb(55, 55, 55);
+    --bs-dropdown-link-hover-color: #fafafa;
+    --bs-dropdown-link-hover-bg: rgb(55, 55, 55);
 }
 
 .navbar-toggler {
@@ -71,9 +73,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* --------------------carousel-------------------- */
 
-.col-md-3 {
-    height: 400px;
-    text-align: center;
+.carousel {
+    height: auto;
+   
 }
 
 /* --------------------Footer-------------------- */
@@ -110,4 +112,25 @@ color: hsl(0, 0%, 22%);
 .fa-brands:hover {
     background-color: rgb(174, 255, 0);
     border-radius: 50%;
+}
+
+/* --------------------Buttons-------------------- */
+
+.add-basket-button, .buy-now-button {
+    width: 50%;
+    margin: 10px 0;
+    border: none;
+    border-radius: 0;
+    background-color: rgb(174, 255, 0);
+    color: rgb(55, 55, 55);
+    font-family: "Cuprum", sans-serif;
+    font-weight: 500;
+    font-size: 22.5px;
+    --bs-btn-active-bg: rgb(55, 55, 55);
+    --bs-btn-hover-bg: rgb(55, 55, 55);
+    --bs-btn-active-color: rgb(174, 255, 0);
+}
+
+.single-item {
+    text-align: right;
 }
