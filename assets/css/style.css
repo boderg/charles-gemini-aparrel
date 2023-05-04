@@ -147,3 +147,7 @@ color: hsl(0, 0%, 22%);
     color: rgb(55, 55, 55);
     font-weight: 500;
 }
+
+.btn-checkout {
+    width: 100%;
+}
