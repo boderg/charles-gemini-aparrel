@@ -116,7 +116,7 @@ color: hsl(0, 0%, 22%);
 
 /* --------------------Buttons-------------------- */
 
-.add-basket-button, .buy-now-button {
+.add-basket-button, .buy-now-button, .btn-checkout {
     width: 50%;
     margin: 10px 0;
     border: none;
@@ -133,4 +133,17 @@ color: hsl(0, 0%, 22%);
 
 .single-item {
     text-align: right;
+}
+
+.offcanvas {
+    background-color: rgb(250, 250, 250);
+    color: rgb(55, 55, 55);
+    font-weight: 500;
+}
+
+.card {
+    border-radius: 0;
+    font-family: "Cuprum", sans-serif;
+    color: rgb(55, 55, 55);
+    font-weight: 500;
 }

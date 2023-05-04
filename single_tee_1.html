@@ -55,6 +55,7 @@
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li><a class="dropdown-item" href="#">Account</a></li>
+                                <li><a class="dropdown-item" href="#">Shopping Cart</a></li>
                                 <li><a class="dropdown-item" href="#">About</a></li>
                                 <li><a class="dropdown-item" href="#">Contact</a></li>
                                 <li><a class="dropdown-item" href="#">Size Chart</a></li>
@@ -63,7 +64,7 @@
                     </ul>
                     <div class="col-md-2">
                         <div class="text-center align-self-center basket">
-                            <a href="#" class="shopping-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvas"><i class="fa-solid fa-cart-shopping"></i></a>
                         </div>
                     </div>
                 </div>
@@ -115,6 +116,16 @@
                 </div>
             </div>
         </footer>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasLabel">Shopping Cart</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              Content for the offcanvas goes here. You can place just about any Bootstrap component or custom elements here.
+            </div>
+          </div>
 
     </body>
 
