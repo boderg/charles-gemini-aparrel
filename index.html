@@ -25,16 +25,14 @@
     </head>
 
     <body class="site-bg">
-        <section class="sale-banner">
-            <div class="container-fluid alert-container">
+        <section class="sale-banner container-fluid alert-container">
                 <div class="row align-self-center text-center">
                     <div class="col-12">
                         <strong>Sale Now On!</strong> 25% off for 1 week only!
                     </div>
                 </div>
         </section>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid">
                 <a class="navbar-brand" href="index.html">Charles Gemini Apparel</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown-menu"
                     aria-controls="dropdown-menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,16 +60,29 @@
                             </ul>
                         </li>
                     </ul>
-                    <div class="col-md-2">
-                        <div class="text-center align-self-center basket">
+                        <div class="basket">
                             <a data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvas"><i class="fa-solid fa-cart-shopping"></i></a>
                         </div>
-                    </div>   
                 </div>
-            </div>
         </nav>
-        <section>
-            
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasLabel">Shopping Cart</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="" alt="item description">
+                      <p>price</p>
+                    </div>
+                  </div>
+                  <div class="btn btn-primary btn-checkout">Go to Checkout</div>
+            </div>
+          </div>
+
+        <section class="container-fluid">
                 <div class="row">
                     <div class="col-md-4 tee-image align-self-center text-center">
                         <a href="tees.html"><img src="" alt="Image of a person wearing a tee shirt"></a>
@@ -98,56 +109,34 @@
                     <div class="col-md-4 hoodie-image align-self-center text-center">
                         <a href="hoodies.html"><img src="" alt="Image of a person wearing a hoodie"></a>
                     </div>
-                </div>
-            
+                </div>            
         </section>
-
-        <footer class="nav-social-copyright">
+        <footer class="nav-social-copyright container-fluid">
             <div class="row">
-                <div class="col-md-4">
-                </div>
-                <div class="col-md-4 social-icons align-self-center text-center">
+                <div class="col-12 mx-auto social-icons align-self-center text-center">
                     <ul class="list-inline social-links">
                         <li class="list-inline-item"><a href="http://www.facebook.com" target="_blank"><i
-                                    class="fa-brands fa-facebook" aria="hidden"></i><span
+                                    class="fa-brands fa-facebook" aria-hidden="true"></i><span
                                     class="sr-only">Facebook</span></a>
                         </li>
                         <li class="list-inline-item"><a href="http://www.twitter.com" target="_blank"><i
-                                    class="fa-brands fa-twitter" aria="hidden"></i><span
+                                    class="fa-brands fa-twitter" aria-hidden="true"></i><span
                                     class="sr-only">Twitter</span></a>
                         </li>
                         <li class="list-inline-item"><a href="http://www.pinterest.com" target="_blank"><i
-                                    class="fa-brands fa-pinterest" aria="hidden"></i><span
+                                    class="fa-brands fa-pinterest" aria-hidden="true"></i><span
                                     class="sr-only">Pinterest</span></a>
                         </li>
                         <li class="list-inline-item"><a href="http://www.instagram.com" target="_blank"><i
-                                    class="fa-brands fa-instagram" aria="hidden"></i><span
+                                    class="fa-brands fa-instagram" aria-hidden="true"></i><span
                                     class="sr-only">Instagram</span></a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4 align-self-end author">
+                <div class="col-12 mx-auto align-self-end text-center author">
                     <p><i class="fa-regular fa-copyright"></i> Copyright 2023 Charles Gemini</p>
                 </div>
-            </div>
         </footer>
-
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasLabel">Shopping Cart</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <div class="card">
-                    <div class="card-body">
-                      <img src="" alt="item description">
-                      <p>price</p>
-                    </div>
-                  </div>
-                  <div class="btn btn-primary btn-checkout">Go to Checkout</div>
-            </div>
-          </div>
-
     </body>
 
 </html>
